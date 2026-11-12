@@ -1,0 +1,116 @@
+{
+ "session": "fastest-sort-i7-20261109b",
+ "hashes": [
+  "e8a1b92a779c5685"
+ ],
+ "cells": {
+  "cpp-std": {
+   "test": 1,
+   "median_s": 7.727,
+   "min_s": 7.6801,
+   "max_s": 8.0055,
+   "runs": 25,
+   "plain_median_s": 7.6866,
+   "plain_vs_recorded": -0.0052
+  },
+  "rust-std": {
+   "test": 1,
+   "median_s": 1.5611,
+   "min_s": 1.5286,
+   "max_s": 1.718,
+   "runs": 25,
+   "plain_median_s": 1.5622,
+   "plain_vs_recorded": 0.0007
+  },
+  "go-std": {
+   "test": 1,
+   "median_s": 7.5039,
+   "min_s": 7.4653,
+   "max_s": 7.8054,
+   "runs": 25,
+   "plain_median_s": 7.4865,
+   "plain_vs_recorded": -0.0023
+  },
+  "java-std": {
+   "test": 1,
+   "median_s": 6.3726,
+   "min_s": 6.2713,
+   "max_s": 6.77,
+   "runs": 25,
+   "plain_median_s": 6.4013,
+   "plain_vs_recorded": 0.0045
+  },
+  "cpp-radix": {
+   "test": 2,
+   "median_s": 1.1195,
+   "min_s": 1.1006,
+   "max_s": 1.2526,
+   "runs": 25,
+   "plain_median_s": 1.1369,
+   "plain_vs_recorded": 0.0156
+  },
+  "rust-radix": {
+   "test": 2,
+   "median_s": 1.1508,
+   "min_s": 1.1224,
+   "max_s": 1.2868,
+   "runs": 25,
+   "plain_median_s": 1.145,
+   "plain_vs_recorded": -0.0051
+  },
+  "go-radix": {
+   "test": 2,
+   "median_s": 1.5426,
+   "min_s": 1.5262,
+   "max_s": 1.607,
+   "runs": 25,
+   "plain_median_s": 1.5235,
+   "plain_vs_recorded": -0.0124
+  },
+  "java-radix": {
+   "test": 2,
+   "median_s": 1.3164,
+   "min_s": 1.2793,
+   "max_s": 1.4668,
+   "runs": 25,
+   "plain_median_s": 1.2988,
+   "plain_vs_recorded": -0.0134
+  },
+  "cpp-par": {
+   "test": 3,
+   "median_s": 1.1135,
+   "min_s": 1.1048,
+   "max_s": 1.1266,
+   "runs": 25,
+   "plain_median_s": 1.1061,
+   "plain_vs_recorded": -0.0066
+  },
+  "rust-par": {
+   "test": 3,
+   "median_s": 0.3576,
+   "min_s": 0.3437,
+   "max_s": 0.3928,
+   "runs": 25,
+   "plain_median_s": 0.3515,
+   "plain_vs_recorded": -0.0171
+  },
+  "go-par": {
+   "test": 3,
+   "median_s": 1.1955,
+   "min_s": 1.183,
+   "max_s": 1.2322,
+   "runs": 25,
+   "plain_median_s": 1.2007,
+   "plain_vs_recorded": 0.0044
+  },
+  "java-par": {
+   "test": 3,
+   "median_s": 0.7329,
+   "min_s": 0.71,
+   "max_s": 0.7606,
+   "runs": 25,
+   "plain_median_s": 0.7277,
+   "plain_vs_recorded": -0.0071
+  }
+ }
+}

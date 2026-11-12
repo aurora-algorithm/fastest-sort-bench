@@ -1,0 +1,8 @@
+cpp/build/
+rust/target/
+go/fastestsort
+go/fastestsort.exe
+java/classes/
+*.cast.tmp
+__pycache__/
+.DS_Store

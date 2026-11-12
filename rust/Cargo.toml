@@ -1,0 +1,10 @@
+[package]
+name = "fastest_sort"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+rayon = "=1.12.0"
+
+# cargo's default release profile (opt-level 3, no LTO), the same "Release" C++ gets from CMake.

@@ -1,0 +1,3 @@
+# Same rule as the C++ side (-march=native): build for the CPU the benchmark runs on.
+[build]
+rustflags = ["-C", "target-cpu=native"]
